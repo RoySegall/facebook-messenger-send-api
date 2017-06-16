@@ -21,6 +21,5 @@ $facebook
 $message = $facebook->contentType->text->text('message');
 
 $facebook
-  ->setTag('A_TAG')
   ->sendMessage($message);
 

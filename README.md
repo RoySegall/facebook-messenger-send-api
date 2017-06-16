@@ -128,4 +128,11 @@ $facebook
 After you'll get an access token and you find out the recipient user ID you can
 try your code by writing in the `testing.php` and run it. 
 
+If you don't know what is the user recipient ID(of your self in this case) you 
+can get that by setting up the bot and start a conversation. Your recipient ID
+will be in the payload of the request.
+
 Don't forget to populate variables!
+
+## Contribution
+Documentation and unit testing will be more than welcome.
