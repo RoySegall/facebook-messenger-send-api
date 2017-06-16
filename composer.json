@@ -1,0 +1,24 @@
+{
+    "name": "roysegall/facebook-messenger-send-api",
+    "description": "Reflecting Facebook Messenger send API arrays payload to an OOP design pattern",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "raveren/kint": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "FacebookMessengerSendApi\\": "src/FacebookMessengerSendApi/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roy Segall",
+            "email": "roy.segall@gizra.com"
+        }
+    ]
+}
