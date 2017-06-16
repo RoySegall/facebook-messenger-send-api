@@ -54,6 +54,13 @@ class SendAPI {
   protected $recipientId;
 
   /**
+   * A tag for the message.
+   *
+   * @var string
+   */
+  protected $tag;
+
+  /**
    * SendAPI constructor.
    */
   public function __construct() {
@@ -113,6 +120,29 @@ class SendAPI {
    */
   public function getRecipientId() {
     return $this->recipientId;
+  }
+
+  /**
+   * Set the tag of a message.
+   *
+   * @param $tag
+   *   The tag.
+   *
+   * @return $this
+   */
+  public function setTag($tag) {
+    $this->tag = $tag;
+
+    return $this;
+  }
+
+  /**
+   * Get the tag.
+   *
+   * @return string
+   */
+  public function getTag() {
+    return $this->tag;
   }
 
   /**

@@ -8,8 +8,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $facebook = new FacebookMessengerSendApi\SendAPI();
 
-$message = $facebook->contentType->text->text('This is a message.');
-
 // The app access token.
 $access_token = '';
 
@@ -20,5 +18,9 @@ $facebook
   ->setAccessToken($access_token)
   ->setRecipientId($recipient);
 
-$facebook->sendMessage($message);
+$message = $facebook->contentType->text->text('message');
+
+$facebook
+  ->setTag('A_TAG')
+  ->sendMessage($message);
 
