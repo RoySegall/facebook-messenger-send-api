@@ -240,26 +240,6 @@ class SendAPI {
   }
 
   /**
-   * Get the sender information.
-   *
-   * @param $id
-   *   The ID of the user.
-   * @param string $fields
-   *   The fields we desire to retrieve. Default to first and last name. The
-   *   fields separated by comma.
-   *
-   * @return mixed
-   */
-  protected function getSenderInfo($id, $fields = 'first_name,last_name') {
-    return json_decode($this->guzzle()->get('https://graph.facebook.com/v2.6/' . $id, [
-      'query' => [
-        'access_token' => $this->accessToken,
-        'fields' => $fields,
-      ],
-    ])->getBody());
-  }
-
-  /**
    * Alias for guzzle.
    *
    * @return \GuzzleHttp\Client
