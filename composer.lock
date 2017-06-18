@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "180c36bb82e8a712442a85a38b8c150b",
+    "content-hash": "c7bb35d2370701d04b8547e425a8a81b",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -233,58 +233,6 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
-        },
-        {
-            "name": "raveren/kint",
-            "version": "1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kint-php/kint.git",
-                "reference": "a8549198558560b24e2879c6bac2875de5371483"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kint-php/kint/zipball/a8549198558560b24e2879c6bac2875de5371483",
-                "reference": "a8549198558560b24e2879c6bac2875de5371483",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "Kint.class.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rokas Šleinius",
-                    "homepage": "https://github.com/kint-php"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/kint-php/kint/contributors"
-                }
-            ],
-            "description": "Kint - debugging helper for PHP developers",
-            "homepage": "https://github.com/kint-php/kint",
-            "keywords": [
-                "debug",
-                "kint",
-                "php"
-            ],
-            "abandoned": "kint-php/kint",
-            "time": "2017-01-15T14:23:43+00:00"
         }
     ],
     "packages-dev": [
