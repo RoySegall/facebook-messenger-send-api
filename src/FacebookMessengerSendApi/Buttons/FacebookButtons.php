@@ -44,7 +44,7 @@ class FacebookButtons {
    */
   public function __construct() {
     $this->url = new Url();
-    $this->postBack = new postBack();
+    $this->postBack = new PostBack();
     $this->call = new Call();
     $this->share = new Share();
     $this->buy = new Buy();
