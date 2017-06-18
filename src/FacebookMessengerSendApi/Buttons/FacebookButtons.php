@@ -10,7 +10,7 @@ class FacebookButtons {
   public $url;
 
   /**
-   * @var postBack
+   * @var PostBack
    */
   public $postBack;
 
